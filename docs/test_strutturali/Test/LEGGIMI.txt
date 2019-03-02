@@ -1,0 +1,12 @@
+Chiudere UnrealEngine e copiare e sostituire i file "Engine.ini" in
+Saved->Config->Windows facendo riferimento anche alla matrice dei 
+casi di test in testing_funzionale.docx
+
+Per qualche motivo alcune volte l'editor di Unreal sembra non impostare 
+come si deve le variabili passate nel file "Engine" o meglio le carica 
+nell'editor ma schiacciando play non viene visualizzato il risultato corretto;
+se anche te ti accorgi che il test non è andato a buon fine consiglio di rimettere 
+il file "Engine.txt" nella cartella "DefaultEngine" all'interno del percorso 
+descritto sopra (per riportare le cose alla normalità) e successivamente inserire 
+i dati in questione(seguendo la matrice dei casi di test nel documento word "test_strutturali.docx") "a mano" direttamente nell'editor di UnrealEngine così
+ da verificare l'effettivo esito del test.

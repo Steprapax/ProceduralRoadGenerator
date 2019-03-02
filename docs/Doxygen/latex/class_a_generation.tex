@@ -1,0 +1,45 @@
+\hypertarget{class_a_generation}{}\section{A\+Generation Class Reference}
+\label{class_a_generation}\index{A\+Generation@{A\+Generation}}
+
+
+Inherits A\+Actor.
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_generation_a769fb2cdb7c107c32df67c00c9940b3c}\label{class_a_generation_a769fb2cdb7c107c32df67c00c9940b3c}} 
+T\+Array$<$ \mbox{\hyperlink{struct_f_road}{F\+Road}} $>$ {\bfseries road\+Generation} ()
+\item 
+\mbox{\Hypertarget{class_a_generation_adfc9494b921cb7c016b9ad92dd0ac394}\label{class_a_generation_adfc9494b921cb7c016b9ad92dd0ac394}} 
+void {\bfseries add\+Road} (std\+::priority\+\_\+queue$<$ \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$, std\+::deque$<$ \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$$>$, \mbox{\hyperlink{structpriority_comparator}{priority\+Comparator}} $>$ \&queue, \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$current\+Road)
+\item 
+\mbox{\Hypertarget{class_a_generation_a62e60da94a64549129c663ba94f6bd20}\label{class_a_generation_a62e60da94a64549129c663ba94f6bd20}} 
+void {\bfseries add\+Forward} (std\+::priority\+\_\+queue$<$ \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$, std\+::deque$<$ \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$$>$, \mbox{\hyperlink{structpriority_comparator}{priority\+Comparator}} $>$ \&queue, Road\+Type type, \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$previous\+Road, float width)
+\item 
+\mbox{\Hypertarget{class_a_generation_a981a8729017849f954819043a6f4475d}\label{class_a_generation_a981a8729017849f954819043a6f4475d}} 
+void {\bfseries add\+Side} (std\+::priority\+\_\+queue$<$ \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$, std\+::deque$<$ \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$$>$, \mbox{\hyperlink{structpriority_comparator}{priority\+Comparator}} $>$ \&queue, Road\+Type type, \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$previous, float width, bool left)
+\item 
+\mbox{\Hypertarget{class_a_generation_afb2eaef94cbe516d220e8d84df532a85}\label{class_a_generation_afb2eaef94cbe516d220e8d84df532a85}} 
+bool {\bfseries distance\+Check} (T\+Array$<$ \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$$>$ \&segments, \mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$current\+Road)
+\item 
+\mbox{\Hypertarget{class_a_generation_adc39f8ec56553670e9ef1cc422c352c9}\label{class_a_generation_adc39f8ec56553670e9ef1cc422c352c9}} 
+void {\bfseries vertices} (\mbox{\hyperlink{struct_f_road}{F\+Road}} $\ast$road)
+\item 
+\mbox{\Hypertarget{class_a_generation_aa5a1043ce34bfd8dfd8ccc9368a158b0}\label{class_a_generation_aa5a1043ce34bfd8dfd8ccc9368a158b0}} 
+F\+Rotator {\bfseries random\+Rotation} (F\+Rotator original\+Rotation, float degrees)
+\item 
+\mbox{\Hypertarget{class_a_generation_af442598e1a6c3fc500506dc9dbf78b09}\label{class_a_generation_af442598e1a6c3fc500506dc9dbf78b09}} 
+virtual void {\bfseries Tick} (float Delta\+Time) override
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_a_generation_acf995b059cd1052447b19e39d484ccbd}\label{class_a_generation_acf995b059cd1052447b19e39d484ccbd}} 
+virtual void {\bfseries Begin\+Play} () override
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/stepr/\+Desktop/\+P\+W\+G/\+Source/\+Pwg/Generation.\+h\item 
+C\+:/\+Users/stepr/\+Desktop/\+P\+W\+G/\+Source/\+Pwg/Generation.\+cpp\end{DoxyCompactItemize}
